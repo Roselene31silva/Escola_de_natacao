@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -134,7 +136,7 @@ table {
     border-spacing: 0;
 }
 
-main {
+.main {
     width: 1200px;
     margin: auto;
 }
@@ -151,7 +153,7 @@ main {
     color: #5a1dcb;   
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
     font-size: 60px; 
-    padding-top: 20px;
+    padding-top: 55px;
 }
 .titulo2{
     font-family: "Lobster"; 
@@ -159,8 +161,7 @@ main {
     font-size: 50px; 
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
     margin: 20px 01; 
-    margin-top: 50px;
-    
+    margin-top: 50px;   
 }
 
 .menu-principal{
@@ -171,10 +172,33 @@ main {
     font-family: "Roboto";
     text-align: center;
 }
+.menu-texto{
+    font-size: 40px;
+    text-decoration: none;
+    margin: 42px;   
+}
 
 .imagem{
-    height: 400px;
+    height: auto;
     width: 100%;
+}
+
+.servicos2{
+    font-size: 40px;
+    text-decoration: none;
+    margin: 42px; 
+    text-align: center;
+    color: #5a1dcb;
+}
+
+.texto{
+    font-family: "Roboto";
+    font-size: 20px;   
+}
+
+.container {
+    display: flex;
+    align-items: center;
 }
 
 
