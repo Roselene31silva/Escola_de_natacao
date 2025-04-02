@@ -23,3 +23,18 @@ function fnTrocarCorDeFundo(){
     document.body.style.backgroundColor = corDeFundo
 }
 
+function fnMostrarHoraAtual(){
+   const agora = new Date();
+   const horas = agora.getHours();
+   const minutos = agora.getMinutes();
+   const segundos = agora.getSeconds();
+   const HoraAtual = `${horas}:${minutos}:${segundos}`;
+   console.log("Hora atual: ", HoraAtual);
+   alert("Hora Atual: " + HoraAtual );
+}
+
+function fnTrocarTitulo(){
+    document.getElementById("titulo1").innerText = "Titulo novo do meu Site"
+
+}
+
