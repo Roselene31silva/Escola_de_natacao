@@ -38,3 +38,15 @@ function fnTrocarTitulo(){
 
 }
 
+function fnIdiomaPortugues(){
+    document.getElementById("menu-texto1").innerText = "INICIAL"
+    document.getElementById("menu-texto2").innerText = "SERVIÇOS"
+    document.getElementById("menu-texto3").innerText = "CONTATOS"
+}
+
+function fnIdiomaIngles(){
+    document.getElementById("menu-texto1").innerText = "HOME"
+    document.getElementById("menu-texto2").innerText = "SERVICES"
+    document.getElementById("menu-texto3").innerText = "CONTACT"
+}
+
