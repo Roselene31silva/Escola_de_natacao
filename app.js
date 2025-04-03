@@ -58,3 +58,11 @@ function fnBanner2(){
     document.getElementById("banner").src="imagem/banner02.jpg"
 }
 
+function fnBanner3(){
+    document.getElementById("banner").src="imagem/banner03.jpg"
+}
+
+function fnDestaque1Trocar(){
+    document.getElementById("destaqui1").src
+}
+
