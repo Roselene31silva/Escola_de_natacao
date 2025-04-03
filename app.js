@@ -50,3 +50,11 @@ function fnIdiomaIngles(){
     document.getElementById("menu-texto3").innerText = "CONTACT"
 }
 
+function fnBanner1(){
+    document.getElementById("banner").src="imagem/banner01.jpg"
+}
+
+function fnBanner2(){
+    document.getElementById("banner").src="imagem/banner02.jpg"
+}
+
