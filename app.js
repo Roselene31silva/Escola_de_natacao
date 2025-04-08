@@ -63,6 +63,20 @@ function fnBanner3(){
 }
 
 function fnDestaque1Trocar(){
-    document.getElementById("destaqui1").src
+    document.getElementById("destaqui1").src="imagem"
 }
+
+function fnRegistrarContato(){
+    let nome = documentElementById("nome").value
+    let email = documentElemenById("email").value
+    let mensagem = documentElemenById("mensagem").value
+    let informacoesCompleta = nome + " - " + email + "<br>" + mensagem
+    document.getElementById("informacoes").inner = informcoesCompleta
+
+    //limpar os campos
+    document.getElementById("nome").value = ""
+    document.getElementById("email").value = ""
+    document.getElementById("mensagem").value = ""
+}
+
 

@@ -62,8 +62,8 @@
         </div>
         <div>
             <div class="destaques">
-                <img src="imagem/destaque01.jpg" alt="" class="fotos-destaques" id="destaque1" onmouseenter="fnDestaque1Trocar()"
-                    onmouseout=FnDestaque1Original()">
+                <img src="imagem/destaque01.jpg" alt="" class="fotos-destaques" id="destaque1"
+                    onmouseenter="fnDestaque1Trocar()" onmouseout=FnDestaque1Original()">
                 <img src="imagem/destaque02.jpg" alt="" class="fotos-destaques">
                 <img src="imagem/destaque03.jpg" alt="" class="fotos-destaques">
             </div>
@@ -75,8 +75,12 @@
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required><br><br>
                     <label for="mensagem">Mensagem:</label><br>
-                    <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
-                    <input type="submit" value="Enviar">
+                    <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea
+                    <button type="button" onclick="fnRegistrarContato()">Enviar</button>
+                    <p id="informacoes"></p>
+              </form>
+            </div>
+        </div>    
     </main>
     <script src="app.js"></script>
 </body>
